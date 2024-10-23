@@ -13,6 +13,7 @@ RUN apt update \
         g++ \
         libcurl4-openssl-dev \
         libssl-dev \
+        libjq-dev
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
 
