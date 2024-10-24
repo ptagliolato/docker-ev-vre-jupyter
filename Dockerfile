@@ -14,6 +14,7 @@ RUN apt update \
         libcurl4-openssl-dev \
         libssl-dev \
         libjq-dev \
+        jq \
     && apt clean \
     && rm -rf /var/lib/apt/lists/*
 
